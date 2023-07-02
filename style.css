@@ -1,0 +1,651 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5 !important;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+#main_menu {
+    background-color: #ffff !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.search_btn {
+    border: none !important;
+}
+
+.search_icon {
+    color: #000;
+    font-size: 22px;
+}
+
+.mr-auto li {
+    margin-right: 18px;
+}
+
+.collapse .mr-auto {
+    margin-left: 60px;
+}
+
+#myHeader {
+    box-shadow: 0 8px 6px -6px #5653533d;
+}
+
+.banner-content h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 47px;
+}
+
+.banner-content h2 span {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.parent_div {
+    position: relative;
+}
+
+.banner-content {
+    top: 100%;
+    position: absolute;
+   margin-top: 35%;
+}
+.banner_btn{
+        
+            background-color: #40407f !important;
+            border: none !important;
+            color: #fff !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding: 8px 16px !important;
+            font-weight: 500 !important;
+            font-size: 20px !important;
+            margin-top: 15px;
+            
+}
+.banner_btn span{
+    margin-left:15px;
+}
+
+.section-2,.section-4,.section-5,.section-6 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 1285px !important;
+}
+
+.innovation_head {
+    margin-bottom: 30px;
+}
+
+.innovation_head h3 {
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.innovation_head h3 span {
+    font-weight: 700;
+}
+
+.know_more_btn {
+    margin-top: -25px;
+    background-color: #fff !important;
+    border: none !important;
+    color: #000 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 8px 16px !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    margin-left: 150px;
+}
+
+.know_more_btn span {
+    margin-left: 15px;
+}
+
+.first_content {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.second_content {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.medicine_img {
+    width: 100%;
+    height: 240px;
+}
+
+.sec_3_img {
+    width: 100%;
+    height: 450px;
+}
+
+.therapies_sec {
+        background: url(images/medicine-1.jpg);
+        position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+.layer{
+    background-color: rgba(55, 49, 227, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+.layer h2 {
+        color: #fff;
+            font-size: 50px;
+            font-weight: 400;
+            text-align: center;
+}
+.layer h2 span{
+    font-weight: 500;
+    font-size: 60px;
+}
+#therapies div:nth-child(1) {
+    padding-right: 0;
+    padding-left: 0;
+}
+.accordion_sec{
+    background-color: #f5f5f5;
+}
+.myList{
+    list-style-type: none;
+    padding-left: 0;
+}
+.faq-card.card{
+        background: #fff;
+            /* border-radius: 20px; */
+            border: 0;
+            /* margin-bottom: 10px; */
+}
+.faq-card-header.card-header{
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid black;
+}
+.accordion_li{
+        margin: auto;
+            width: 80%;
+            margin-top: -98px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.therapies_btn{
+    
+        background-color: #40407f !important;
+        border: none !important;
+        color: #fff !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 8px 16px !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+       
+}
+.therapies_btn_sec{
+        margin: 50px 0 100px;
+        text-align: center;
+}
+.therapies_btn span {
+    margin-left: 15px;
+}
+
+/* customer care  */
+.assist_sec{
+    margin-bottom: 120px;
+}
+.customer_care{
+    /* background-image: url(images/wear_mask.jpg); */
+    width: 100%;
+        height: 400px;
+        position: relative;
+       
+}
+.customer_care_img{
+   
+    width: 100%;
+    height:400px;
+}
+.cust_logo{
+    width: 160px;
+}
+.img-top{
+    width: 25%;
+        height: 450px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* opacity: 0.8; */
+        z-index: 9;
+            margin-top: -25px;
+                margin-left: 40px;
+}
+.img-top .card{
+        height: 450px;
+}
+.care_content{
+        font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+            margin-top: 20px;
+}
+.care_btn{
+        background-color: #40407f !important;
+            border: none !important;
+            color: #fff !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding: 8px 16px !important;
+            font-weight: 500 !important;
+            font-size: 20px !important;
+            margin-top: 20px;
+}
+.care_btn span {
+    margin-left: 15px;
+}
+
+/* footer section  */
+.site-footer{
+    background: #e8e1d8;
+}
+.footer-heading{
+    font-size: 18px;
+}
+/* .footer-heading:after{
+        content: '';
+            height: 2px;
+            background: #000;
+            border-radius: 1px;
+            display: block;
+            width: 10%;
+            left: 7%;
+            position: absolute;
+            
+            margin-top: 6px;
+} */
+.contact-content{
+    padding-top: 20px;
+}
+.contact-content ul{
+        padding-left: 0;
+            list-style-type: none;
+}
+.contact-content a {
+    text-decoration: none;
+}
+.contact-content a:hover{
+    text-decoration: none;
+}
+.contact-content li {
+    color: #000;
+}
+.footer_row{
+    padding: 55px 35px;
+}
+.social-icon{
+        margin-right: 20px;
+            font-size: 22px;
+            color: #000;
+            margin-left: 5px;
+}
+.copyright_text{
+    padding: 15px;
+}
+.footer_logo{
+    width:160px;
+}
+.footer_row_2{
+    padding: 0 55px 35px;
+}
+.vertical_line{
+    border-left: 3px solid #000;
+        height: 290px;
+}
+.padding_1{
+padding-left: 45px !important;
+}
+.padding_2 {
+    padding-left: 80px !important;
+}
+.padding_3 {
+    padding-left: 42px !important;
+}
+.padding_4 {
+    padding-left: 60px !important;
+}
+
+
+
+/* section-4 */
+
+#research div:nth-child(1){
+        padding-right: 0;
+        padding-left: 0;
+}
+.research_sec {
+    background: url(images/research.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec_4_img{
+        width: 100%;
+        height: 620px;
+}
+.layer-2 {
+    background-color: rgba(55, 49, 227, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer-2 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 40px 60px;
+}
+.layer-2 p{
+        padding-left: 60px;
+            color: #fff;
+            max-width: 70%;
+            font-size: 22px;
+}
+.layer-2 h4{
+        padding: 25px 0 15px 60px;
+            color: #fff;
+}
+.icon_col{
+    text-align: center;
+}
+.research_icon{
+        font-size: 60px;
+        color: #fff;
+}
+.icon_col h4{
+    margin-left: -54px;
+}
+.view_more_btn{
+        margin-top: -25px;
+            background-color: #fff !important;
+            border: none !important;
+            color: #000 !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding: 8px 16px !important;
+            font-weight: 500 !important;
+            font-size: 20px !important;
+            margin-left: 150px;
+            position: absolute;
+}
+
+/* about us  */
+
+.about_us h3{
+        font-size: 50px;
+            line-height: 45px;
+}
+.about_head{
+        font-size: 25px;
+            font-weight: 500;
+            margin-top: 1rem;
+}
+.about_btn{
+        background-color: #40407f !important;
+            border: none !important;
+            color: #fff !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding: 8px 16px !important;
+            font-weight: 500 !important;
+            font-size: 20px !important;
+           
+}
+.about_btn span{
+    margin-left: 15px;
+}
+.about_card{
+    margin-top: 30px;
+}
+.about_card img{
+    min-height: 240px;
+}
+
+/* updates*/
+
+.testimonial h3{
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+.updates_line:before{
+        content: '';
+            height: 3px;
+            background: #051B51;
+            border-radius: 1px;
+            display: block;
+            width: 90%;
+            position: absolute;
+            margin-top: 2px;
+}
+.date{
+    margin-top: 1rem;
+    font-size: 13px;
+}
+.update_content{
+        font-size: 21px;
+            font-weight: 500;
+            line-height: 24px;
+            min-height: 200px;
+}
+.update_btn{
+        text-decoration: none;
+            color: #000;
+            font-weight: 500;
+}
+.update_btn:hover{
+        text-decoration: none;
+}
+.arrow_icon{
+    margin-left:15px;
+}
+
+/* mobile view  */
+
+@media (max-width: 768px) {
+
+    .collapse .mr-auto{
+        margin-left: 0;
+    }
+   .banner-content{
+        margin-top: 15%;
+    }
+    .banner-content h2{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .banner-content h2 span{
+        font-size: 27px;
+    }
+    .banner_btn{
+            margin-top: 0px;
+            font-size: 13px !important;
+            padding: 8px 10px !important;
+
+    }
+    .banner_btn span,.know_more_btn span,.therapies_btn span,.care_btn span{
+    margin-left: 5px;
+    }
+    .banner_mob,.parent_div{
+        width: 50% !important;
+    }
+    .section-2,.section-4,.section-5,.section-6{
+            margin-top: 35px;
+                margin-bottom: 35px;
+    }
+    .innovation_head h3{
+                font-size: 25px;
+                    line-height: 25px;
+    }
+        .know_more_btn{
+            font-size: 13px !important;
+            padding: 8px 10px !important;
+            margin-left: 190px;
+        }
+
+.therapies_mob{
+    width: 40% !important;
+}
+.therapies_sec{
+    width: 60% !important;
+}
+.sec_3_img{
+    height: 180px;
+}
+.layer h2{
+    font-size: 25px;
+}
+.layer h2 span{
+    font-size: 35px;
+}
+.collapsed{
+        font-weight: 400;
+            padding: 10px;
+            font-size: 14px;
+}
+.collapsed .float-right{
+    font-size: 14px;
+}
+.accordion_li{
+    margin-top: -70px;
+    width: 75%;
+}
+.therapies_btn{
+font-size: 13px !important;
+    padding: 8px 10px !important;
+}
+.therapies_btn_sec{
+    margin: 30px 0 62px;
+}
+.img-top{
+    width: 50%;
+    margin-left: 30px;
+}
+.cust_logo{
+width: 76px;
+}
+.customer_care{
+    height: 180px;
+}
+.customer_care_img{
+  height: 210px;
+}
+.img-top .card{
+    height: 275px;
+}
+.care_content{
+    margin-top: 8px;
+    line-height: 16px;
+    font-size: 15px;
+}
+.care_mob_content{
+        font-size: 12px;
+            line-height: 12px;
+}
+.care_btn{
+        font-size: 10px !important;
+            padding: 8px 8px !important;
+            margin-top: 0px;
+}
+.img-top .card-body{
+    padding: 11px;
+}
+
+.research_mob {
+    width: 40% !important;
+}
+
+.research_sec {
+    width: 60% !important;
+}
+.sec_4_img{
+    height: 295px;
+}
+.layer-2 h2{
+    margin-bottom: 0px;
+    padding: 5px 16px;
+    font-size: 16px;
+}
+.layer-2 p{
+    padding-left: 16px;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+.view_more_btn{
+    font-size: 13px !important;
+        padding: 8px 10px !important;
+        margin-left: 225px;
+        margin-top: -20px;
+}
+.layer-2 h4{
+    font-size: 14px;
+    padding: 0px 0 0px 16px;
+}
+.icon_col{
+    width: 33% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.research_icon{
+    font-size: 25px;
+}
+.icon_col h4{
+    margin-left: 0;
+}
+.icon_h4{
+padding-left: 0 !important;
+font-size: 11px !important;
+
+}
+#research div:nth-child(1){
+    padding-left: 5px !important;
+}
+.about_us h3{
+        font-size: 25px;
+            line-height: 25px;
+}
+.testimonial h3{
+        line-height: 25px;
+            margin-bottom: 25px;
+            font-size: 25px;
+}
+.footer_row{
+    padding: 25px 10px;
+}
+.footer_row_2{
+    padding: 0 25px 10px 25px;
+}
+.footer_logo{
+    width: 95px;
+}
+.padding_1,.padding_2,.padding_3,.padding_4{
+    padding-left: 15px !important;
+}
+.vertical_line{
+    height: 0px;
+}
+    
+}
